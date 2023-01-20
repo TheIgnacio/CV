@@ -1,0 +1,79 @@
+* {text-align: center;}
+
+h1{color: white;}
+
+
+table {
+	width: 30%;
+	height: 300px;
+}
+
+button{border-radius: 15px;
+    margin-right: 50px;}
+
+body{
+    background-color: rgb(175, 155, 229);
+    padding: 40px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/549/471/non_2x/elegant-lilac-background-free-vector.jpg) ;
+}
+
+
+fieldset {
+    margin-bottom: 12px;
+    border-radius: 18px;
+}
+
+
+#CPRE{ display: none;
+    background-color: rgba(243, 232, 243, 0.527);
+ padding-top: 35px;
+ padding-bottom: 25px ;
+ padding-left: 15px;
+ border-radius: 25px;
+ font-size: 18px; 
+ align-items: center}
+
+legend {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.753);
+    border: rgba(255, 255, 255, 0.753) 2px ;
+    font-size: 25px; 
+    padding: 8px;   
+}
+
+
+
+
+
+tr {background-color: rgba(243, 232, 243, 0.527);
+    }
+    
+td {border: rgb(218, 213, 213) solid 2px;
+    width: 50px;}
+
+#empleo{background-color: rgba(243, 232, 243, 0.527);
+ padding-top: 35px;
+ padding-bottom: 25px ;
+ padding-left: 15px;
+ border-radius: 25px;
+ font-size: 18px; 
+ align-items: center;   
+}
+
+#personal{
+    background-color: rgba(243, 232, 243, 0.527);
+ padding-top: 35px;
+ padding-bottom: 25px ;
+ padding-left: 25px;
+ border-radius: 25px;
+ font-size: 18px; 
+ 
+} 
+
+
+img{border-radius: 80px;
+    border: rgb(219, 215, 215) solid 2px;}
+
+
+
+

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Curriculum Vitae</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/jpg" href="add/rose-16.ico"/>
+</head>
+<body>
+ 
+    <button type="button" onclick="ocultar();">Ocultar informacion personal</button>
+    <button type="button" onclick="mostrar();">Mostrar informacion personal</button>
+    <button type="button" onclick="ocultarEM();">Ocultar Experiencia</button>
+    <button type="button" onclick="mostrarEM();">Mostrar Experiencia</button>
+
+    <!-- Quien ocultaria una carta de presentacion?-->
+    <button type="button" onclick="mostrarCPRE();">Mostrar Carta de Presentacion</button>
+
+   
+    <h1><u>Curriculum Vitae</u></h1> 
+
+ 
+
+ <img src="add/22.jpg" alt="una foto que muestra un icono de perfil generico">
+    
+        <fieldset id="personal">
+            <legend> Datos Personales</legend>
+            <div>
+            
+                <li class="Dato"><u><b>Nombre y Apellido:</b></u> Mark J Simonds </li>
+                <li class="secundaria"><u><b>Genero:</u></b> Male</li>   
+                <li class="secundaria"><u><b>Cumpleaños:</u></b> 11/3/1985</li>
+                <li class="secundaria"><u><b>Calle:</u></b> 4384 Woodrow Way</li>
+                <li class="Dato"><u><b>City, State, Zip:</u></b> Waller, Texas(TX), 77484 </li>
+                <li class="Dato"><a href=mailto:ru.ru@yopmail.com><u><b>Email:</u></b> ru.ru@yopmail.com</a></li>
+                <li class="Dato"><u><b>Celular:</u></b> 936-509-9066</li>
+                <li class="Dato"><u><b>Telefono:</u></b> 936-389-4812</li> 
+            </div>
+        </fieldset>
+
+    <fieldset id="empleo">
+        <legend>Experiencia</legend>
+        
+            <div>
+                <li><u><b>Mercado Libre</b></u> </li>
+                    <p> Packing: Encargo de preparacion y despacho de productos para su correspondiente envio </p>
+                    <p> Picking: Encargado de seleccion de productos solicitados por el cliented  </p>
+                
+        
+
+                <li><b><u>La Veneciana</b></u></li>
+                    <p> Atencion al Cliente: Resolver, ayudar o asistir al cliente antes y durante la compra </p>
+                    <p> Barista: Preparacion de diferentes infusiones  </p>
+                    <p> Bachero : Encargado de la limpiesa y orden del lugar  </p>
+    
+                <li><b><u>Blue Shark Card </b></u></li>
+                    <p> Administrador de pagos : Encargado en revisar,procesar y solicitar pagos de forma manual </p>
+                    <p> Atencion al cliente: Atencion al cliente mediante los diferentes metodos de pago.  </p>
+                    <p> Administrador de envios: Encargado de revisar las ventas recientes y procesar de forma manual su envio a las cuentas destino </p>
+         
+        </div>    
+    </fieldset>
+
+   <fieldset>
+    
+    <legend>Habilidades</legend>
+    
+    <table align="center">
+        <div >
+            <tr>
+                <td>Basico</td>
+                <td>Intermedio</td>
+                <td>Experto</td>
+            </tr>
+            <tr>
+                <td>Ruby</td>
+                <td>Python</td>
+                <td>CSS</td>
+            </tr>
+            <tr>
+                <td>Linkedin</td>
+                <td>Photoshop</td>
+                <td>C++</td>
+            </tr>
+            <tr>
+                <td>HelpDesk</td>
+                <td>Word</td>
+                <td>Excel</td>
+            </tr>
+        </table>
+        </div>
+
+   </fieldset>
+
+   <fieldset id="CPRE">
+    <legend>Carta de presentacion</legend>
+    
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit leo quam nulla, ante pretium aptent nisi est tincidunt sodales fames viverra nascetur commodo, tempus luctus pellentesque faucibus augue nostra egestas fermentum varius. Parturient sodales venenatis cum blandit dapibus leo iaculis, est mi montes mus lectus porta sem, imperdiet convallis malesuada feugiat justo vel. Praesent sed volutpat conubia scelerisque rhoncus tincidunt commodo, ad a feugiat at convallis eros mi, viverra tempor nullam luctus ultrices neque, sodales phasellus himenaeos torquent integer primis.
+
+                Himenaeos nec sodales montes cras per laoreet neque velit urna feugiat, morbi mi mauris posuere nisl ad tristique tortor netus, mattis non vel pellentesque bibendum accumsan congue sociosqu torquent. Aenean metus gravida mattis vel nisl habitasse risus, vivamus dapibus laoreet nulla vestibulum imperdiet, velit sociis cursus platea mi ullamcorper. Aenean mi euismod hac primis sem penatibus aliquet senectus facilisi, posuere congue viverra nam lobortis eget eros nisl tempor, diam aliquam dis id imperdiet nisi eu pulvinar.</p>
+                <!--Aca directamente ya no sabia que inventarme, VIVA lorem-->
+        </div>    
+    </fieldset>
+
+
+    <script src="js/script.js"></script>
+
+
+    </body>
+</html>
